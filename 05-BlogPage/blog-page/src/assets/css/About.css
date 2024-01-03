@@ -1,0 +1,29 @@
+.about {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    width: 1200px;
+    border-radius: 10px;
+    text-align: center;
+    color: #042940;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 1px 0 5px #DBF227;
+}
+
+.about h1 {
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin: 20px ;
+}

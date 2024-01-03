@@ -1,0 +1,37 @@
+.form h3 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin: 20px;
+    border: 20px;
+}
+.form {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #042940;
+    color: #fff;
+    border-radius: 10px;
+}
+
+div.form {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #042940;
+    color: #fff;
+    border-radius: 10px;
+}
+
+div.form table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    padding: 10px;
+}

@@ -1,0 +1,37 @@
+.navbar {
+    margin-top: 5%;
+    width: 1200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #042940;
+    box-shadow: 1px 0 5px #DBF227;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border-bottom 0.2s ease;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #DBF227;
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+.projects {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 0 5px #DBF227;
+}
+
+.projects h1 {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #DBF227;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.projects a:hover {
+    background-color: #DBF227;
+    color: #fff;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border: 10px;
+    box-shadow: 1px 0 5px #DBF227;
+    background-color: #042940;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #042940;
+}
